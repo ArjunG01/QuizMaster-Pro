@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Queze.com</title>
+    <link rel="stylesheet" href="style.css"> <!-- Make sure this path is correct -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            
+            background-image: url(main_bc.jpg); /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Sets the height to 100% of the viewport */
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed; /* Keeps the background fixed during scrolling */
+    color:black; /* Optional: Adjust text color to contrast with the background */
+
+        }
+        .navbar {
+            background-color: #333;
+        }
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+        .navbar-brand:hover, .nav-link:hover {
+            color: #ddd !important;
+        }
+        .container {
+            margin-top: 30px;
+        }
+        .about-section {
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .about-section h1 {
+            margin-bottom: 20px;
+            color: #007bff;
+        }
+        .about-section p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .about-section img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .about-section .btn {
+            margin-top: 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+        }
+        .about-section .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Queze.com</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="about.html">About_Game</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+            </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Subjects
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Semister-1</a></li>
+                  <li><a class="dropdown-item" href="#">Semister-2</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <div class="about-section">
+            <h1>About Game</h1>
+            <img src="about.jpg" alt="About Us Image" class="img-fluid mb-4">
+            <p>Welcome to Queze.com, your ultimate destination for quiz enthusiasts! At Queze, we are dedicated to offering a fun and engaging platform where users can test their knowledge across a diverse range of subjects. Whether you're a trivia lover or just seeking some interactive learning, our quizzes are designed to challenge and entertain.</p>
+            <p>Our passionate team of quiz creators and developers is committed to continually enhancing the quality of our content. We strive to incorporate the latest trends and technologies to make every quiz experience enjoyable and rewarding. Our goal is to provide a platform that not only entertains but also educates.</p>
+            <p>We believe in the power of learning through play and aim to foster a community where users can share their love for quizzes. We encourage you to explore, participate, and provide feedback to help us grow and improve.</p>
+            <p>Thank you for choosing Queze.com. We look forward to making your quiz journey exciting and memorable. Feel free to reach out with any questions or suggestions!</p>
+            <a href="index.html" class="btn">Back to Home</a>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
